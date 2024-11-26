@@ -1,0 +1,153 @@
+@font-face {
+    src: url(fonts/RobotoCondensed-VariableFont_wght.ttf);
+    font-family: Roboto Condensed;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background: url(background\ images/background5.jpg);
+    background-clip: border-box;
+}
+
+header{
+    .webpagetitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #mainheading{
+        text-align: center;
+        margin: 10px 15px;
+        padding: 15px 10px;
+        font-size: 3em;
+        color: whitesmoke;
+    }
+    .fa-brands.fa-canadian-maple-leaf{
+        color: whitesmoke;
+    }
+    .navbar{
+        overflow: hidden;
+        font-family: Roboto Condensed;
+    }
+    .navbar a{
+        color: whitesmoke;
+        text-decoration: none;
+        display: block;
+        float: left;
+        padding: 10px 96px;
+        font-size: 1.5em;
+    }
+    .navbar a:hover{
+        font-size: 1.7em;
+        border: 2px solid whitesmoke;
+        border-radius: 25px;
+    }
+}
+
+.container{
+    border: 4px transparent black;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 50px;
+    font-family: Parkinsans;
+    backdrop-filter: blur(5px);
+}
+
+#loginTitle{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.inputbox{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px 5px 10px 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 99px;
+    background: transparent;
+    font-size: 1.2em;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.inputbox ::placeholder{
+    color: whitesmoke;
+}
+.inputbox i{
+    position: absolute;
+    right: 25px;
+    top: 30%;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.remember-forget-box{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.remember-forget-box .rememberMe{
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+.remember-forget-box a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.remember-forget-box a:hover{
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+.submit{
+    border: 2px solid black;
+    border-radius: 99px;
+    font-size: 1.3em;
+    padding: 10px 30px 10px 30px;
+    margin-top: 15px;
+    width: 100%;
+    background: transparent;
+    color: whitesmoke;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.submit:hover{
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.noaccount{
+    margin-top: 15px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+.noaccount a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.noaccount a:hover{
+    text-decoration: underline;
+    font-size: 1.4em;
+}
