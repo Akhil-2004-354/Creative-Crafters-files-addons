@@ -1,0 +1,138 @@
+@font-face {
+    src: url(fonts/RobotoCondensed-VariableFont_wght.ttf);
+    font-family: Roboto condensed;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+#Heading{
+    font-family: roboto condensed;
+    color: hsl(226, 100%, 63%);
+    padding-left: 20px;
+}
+
+#form1{
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: roboto condensed;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+#mainHeading{
+    font-size: 3em;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#span1{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+#form-group1{
+    margin-top: 20px;
+}
+
+#username{
+    width: 80%;
+    margin-left: 20px;
+    font-size: 1.5em;
+    padding: 15px;
+    border: 2px solid hsl(0, 0%, 20%);;
+    border-radius: 5px;
+}
+
+#form-group2{
+    margin-top: 20px;
+}
+
+#password{
+    width: 80%;
+    margin-left: 20px;
+    font-size: 1.5em;
+    padding: 15px;
+    border: 2px solid hsl(0, 0%, 20%);
+    border-radius: 5px;
+}
+
+#form-group3{
+    padding: 20px;
+}
+
+#H4 a{
+    font-weight: normal;
+    text-decoration: none;
+    color: hsl(226, 100%, 63%);
+}
+
+#button1{
+    width: 90%;
+    height: 50px;
+    font-size: 1.2em;
+    border: 2px solid hsl(0, 0%, 20%);
+    border-radius: 90px;
+    background-color: hsl(226, 100%, 63%);
+    margin-left: 20px;
+    margin-bottom: 25px;;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#button2{
+    width: 90%;
+    height: 50px;
+    font-size: 1.2em;
+    border: 2px solid hsl(0, 0%, 20%);
+    border-radius: 90px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+    margin-top: 25px;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+#newuser{
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;
+    font-family: roboto condensed;
+}
+
+#H3{
+    font-weight: normal;
+}
+
+#H3 a{
+    color: hsl(226, 100%, 63%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar a{
+    display: block;
+    float: left;
+    margin-top: 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: roboto condensed;
+}

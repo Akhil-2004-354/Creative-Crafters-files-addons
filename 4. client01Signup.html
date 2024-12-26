@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.creative-crafters.net</title>
+        <link rel="stylesheet" href="4. client01Signup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <h2 id="mainHeading">Create account</h2>
+            <form id="form">
+                <div id="form-group1">
+                    <label for="username">Username</label><br>
+                    <input class="userbox" type="text" required name="username" maxlength="12" placeholder="less than 12 characters"><br>
+                    <span id="span1">Hey! remember your username</span>
+                </div>
+                <div id="form-group2">
+                    <label for="password">Password</label>
+                    <input class="userbox" type="password" required name="password" maxlength="8" minlength="7">
+                    <span id="span2">Password should contain 8 characters with entities..</span>
+                </div>
+                <div id="form-group3">
+                    <label for="age">Age</label><br>
+                    <input id="agebox" type="date" required name="age"><br>
+                    <span id="span3">select your age..</span>
+                </div>
+                <div id="form-group4">
+                    <input type="checkbox" id="checkbox" name="remember-me" checked>
+                    <label for="remember-me">Remember Password</label>
+                </div>
+                <div id="form-group5">
+                    <input type="checkbox" name="terms">
+                    <label for="terms">I agree to the <a href="#" target="_blank" title="our terms and conditions.pdf/page">terms and conditions</a></label>
+                </div>
+                <button id="button" type="submit">Sign Up</button>
+            </form>
+        </div>
+        <script src="4. client01Signup.js"></script>
+    </body>
+</html>
