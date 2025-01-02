@@ -3,6 +3,7 @@
 const passwordBox = document.getElementById("input");
 const length = 12;
 const button = document.getElementById("button");
+const outro = document.getElementById("outro");
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -28,3 +29,16 @@ function copyPassword(){
     passwordBox.select();
     document.execCommand("copy");
 }
+
+outro.addEventListener("mouseover", (event) => {
+    event.target.textContent = "Click on generate button for a password";
+    event.target.style.color = "green";
+});
+outro.addEventListener("mouseout", (event) => {
+    event.target.textContent = "Hover me..For Help!";
+    event.target.style.color = "whitesmoke";
+});
+outro.addEventListener("click", (event) => {
+    event.target.textContent = "Click the generate button not me...🤕";
+    event.target.style.color = "crimson";
+})
