@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Parkinsans;
+    src: url(fonts/Parkinsans-VariableFont_wght.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Parkinsans;
+}
+body{
+    background-color: whitesmoke;
+}
+#form{
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+}
+#main-div{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    /*align-items: center;*/
+    text-align: center;
+    width: 300px;
+    height: 450px;
+}
+#myHeading{
+    color: hsla(0, 0%, 0%, 0.804);
+    padding: 10px;
+    margin-top: 10px;
+}
+#label1{
+    float: left;
+    margin-left: 20px;
+}
+#username{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 35px;
+}
+#label2{
+    float: left;
+    margin-left: 20px;
+}
+#password{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 35px;
+}
+#box1{
+    position: absolute;
+    left: 30px;
+    top: 106px;
+}
+#box2{
+    position: absolute;
+    left: 30px;
+    top: 175px;
+}
+#h3{
+    float: right;
+    padding: 0px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+#h3 a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#h3 a:hover{
+    text-decoration: underline;
+}
+#button{
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-left: 20px;
+    cursor: pointer;
+    background: linear-gradient(120deg, hsl(195, 93%, 46%), hwb(346 23% 5%));
+}
+#button:hover{
+    background: linear-gradient(120deg, hsl(195, 79%, 53%), hwb(346 38% 7%));
+    color: whitesmoke;
+}
+#button:active{
+    background: linear-gradient(120deg, hsl(195, 40%, 53%), hwb(346 47% 7%));
+    color: whitesmoke;
+}
+#paragraph1{
+    margin-top: 30px;
+}
+#icons a{
+    font-size: 2em;
+    padding: 10px;
+}
+#paragraph2{
+    margin-top: 20px;
+}
+#paragraph2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#paragraph2 a:hover{
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.669);
+}
+#CC{
+    margin-top: 650px;
+    color: gray;
+}
+#navLinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+#navLinks li{
+    padding: 0px;
+    list-style: none;
+}
+#navLinks a{
+    color: gray;
+    text-decoration: none;
+}
+#navLinks a:hover{
+    color: hsl(0, 0%, 0%);
+    text-decoration: underline;
+}
+
